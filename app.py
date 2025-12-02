@@ -145,7 +145,7 @@ def get_real_weather(city="Cairo", api_key=None):
     
     try:
         # URL للـ API
-        base_url = "http://api.openweathermap.org/data/2.5/weather"
+        base_url = "https://api.openweathermap.org/data/2.5/weather"
         
         # المعاملات
         params = {
@@ -815,4 +815,5 @@ st.markdown("""
         🤖 AI Models: Random Forest | 📊 Data: 500+ Records | 🌍 Real-time Weather API
     </p>
 </div>
+
 """, unsafe_allow_html=True)
